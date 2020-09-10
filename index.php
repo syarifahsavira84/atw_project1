@@ -52,3 +52,20 @@ echo $elang->Suara();
 echo "<br>";
 
 echo "<hr>";
+
+$angsa = new Angsa;
+$angsa->hewan = "Angsa";
+$angsa->jumlah_kaki = "2";
+$angsa->bisa_terbang = "Bisa";
+$angsa->suara = "Kwaaak";
+
+echo $angsa->Hewan();
+echo "<br>";
+echo $angsa->jumlahKaki();
+echo "<br>";
+echo $angsa->bisaTerbang();
+echo "<br>";
+echo $angsa->Suara();
+echo "<br>";
+
+echo "<hr>";

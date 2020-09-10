@@ -42,3 +42,14 @@ class Anjing extends Animal {
 		return "Anjing Memiliki Suara : GuukGuuk ";
 	}
 }
+class Elang extends Animal {
+	public function JumlahKaki(){
+		return "Elang Memiliki Jumlah Kaki 2";
+	}
+	public function BisaTerbang(){
+		return "Elang Bisa Terbang";
+	}
+	public function Suara(){
+		return "Elang Memiliki Suara : Miiipppp ";
+	}
+}

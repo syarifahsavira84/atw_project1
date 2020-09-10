@@ -35,3 +35,20 @@ echo $anjing->Suara();
 echo "<br>";
 
 echo "<hr>";
+
+$elang = new Elang;
+$elang->hewan = "Elang";
+$elang->jumlah_kaki = "2";
+$elang->bisa_terbang = "Bisa";
+$elang->suara = "Miiipppp";
+
+echo $elang->Hewan();
+echo "<br>";
+echo $elang->jumlahKaki();
+echo "<br>";
+echo $elang->bisaTerbang();
+echo "<br>";
+echo $elang->Suara();
+echo "<br>";
+
+echo "<hr>";

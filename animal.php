@@ -31,3 +31,14 @@ class Kucing extends Animal {
 		return "Kucing Memiliki Suara : Meooong ";
 	}
 }
+class Anjing extends Animal {
+	public function JumlahKaki(){
+		return "Anjing Memiliki Jumlah Kaki 4";
+	}
+	public function BisaTerbang(){
+		return "Anjing Tidak Bisa Terbang";
+	}
+	public function Suara(){
+		return "Anjing Memiliki Suara : GuukGuuk ";
+	}
+}

@@ -18,3 +18,20 @@ echo $kucing->Suara();
 echo "<br>";
 
 echo "<hr>";
+
+$anjing = new Anjing;
+$anjing->hewan = "Anjing";
+$anjing->jumlah_kaki = "4";
+$anjing->bisa_terbang = "Tidak";
+$anjing->suara = "GuukGuuk";
+
+echo $anjing->Hewan();
+echo "<br>";
+echo $anjing->jumlahKaki();
+echo "<br>";
+echo $anjing->bisaTerbang();
+echo "<br>";
+echo $anjing->Suara();
+echo "<br>";
+
+echo "<hr>";

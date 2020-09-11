@@ -7,60 +7,51 @@ class Animal {
 		return $this->hewan;
 	}
 	function Hewan(){
-		return " Hewan Ini Adalah : ".$this->hewan;
-	}
-	function jumlahKaki(){
-		return " Jumlah Kakinya : ".$this->jumlah_kaki;
-	}
-		function bisaTerbang(){
-		return " Dia Bisa Terbang : ".$this->bisa_terbang;
-	}
-		function Suara(){
-		return " Suaranya : ".$this->suara;
+		return " Hewan Ini Adalah ".$this->hewan;
 	}
 }
 
 class Kucing extends Animal {
 	public function JumlahKaki(){
-		return "Kucing Memiliki Jumlah Kaki 4";
+		return "Kucing Memiliki Jumlah Kaki : ".$this->jumlah_kaki;
 	}
 	public function BisaTerbang(){
 		return "Kucing Tidak Bisa Terbang";
 	}
 	public function Suara(){
-		return "Kucing Memiliki Suara : Meooong ";
+		return "Kucing Memiliki Suara : ".$this->suara;
 	}
 }
 class Anjing extends Animal {
 	public function JumlahKaki(){
-		return "Anjing Memiliki Jumlah Kaki 4";
+		return "Anjing Memiliki Jumlah Kaki : ".$this->jumlah_kaki;
 	}
 	public function BisaTerbang(){
 		return "Anjing Tidak Bisa Terbang";
 	}
 	public function Suara(){
-		return "Anjing Memiliki Suara : GuukGuuk ";
+		return "Anjing Memiliki Suara : ".$this->suara;
 	}
 }
 class Elang extends Animal {
 	public function JumlahKaki(){
-		return "Elang Memiliki Jumlah Kaki 2";
+		return "Elang Memiliki Jumlah Kaki : ".$this->jumlah_kaki;
 	}
 	public function BisaTerbang(){
 		return "Elang Bisa Terbang";
 	}
 	public function Suara(){
-		return "Elang Memiliki Suara : Miiipppp ";
+		return "Elang Memiliki Suara : ".$this->suara;
 	}
 }
 class Angsa extends Animal {
 	public function JumlahKaki(){
-		return "Angsa Memiliki Jumlah Kaki 2";
+		return "Angsa Memiliki Jumlah Kaki : ".$this->jumlah_kaki;
 	}
 	public function BisaTerbang(){
 		return "Angsa Bisa Terbang";
 	}
 	public function Suara(){
-		return "Angsa Memiliki Suara : Kwaaak ";
+		return "Angsa Memiliki Suara : ".$this->suara;
 	}
 }

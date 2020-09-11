@@ -2,10 +2,14 @@
 
 include "animal.php";
 
+echo "<hr>";
+echo "Animal";
+echo "<hr>";
+echo "<hr>";
+
 $kucing = new Kucing;
 $kucing->hewan = "Kucing";
 $kucing->jumlah_kaki = "4";
-$kucing->bisa_terbang = "Tidak";
 $kucing->suara = "Meooong";
 
 echo $kucing->Hewan();
@@ -22,7 +26,6 @@ echo "<hr>";
 $anjing = new Anjing;
 $anjing->hewan = "Anjing";
 $anjing->jumlah_kaki = "4";
-$anjing->bisa_terbang = "Tidak";
 $anjing->suara = "GuukGuuk";
 
 echo $anjing->Hewan();
@@ -39,7 +42,6 @@ echo "<hr>";
 $elang = new Elang;
 $elang->hewan = "Elang";
 $elang->jumlah_kaki = "2";
-$elang->bisa_terbang = "Bisa";
 $elang->suara = "Miiipppp";
 
 echo $elang->Hewan();
@@ -56,7 +58,6 @@ echo "<hr>";
 $angsa = new Angsa;
 $angsa->hewan = "Angsa";
 $angsa->jumlah_kaki = "2";
-$angsa->bisa_terbang = "Bisa";
 $angsa->suara = "Kwaaak";
 
 echo $angsa->Hewan();

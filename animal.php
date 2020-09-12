@@ -1,57 +1,57 @@
 <?php 
 
 class Animal {
-	public $hewan, $jumlah_kaki, $bisa_terbang, $suara;
+	public $nama, $jumlah_kaki, $bisa_terbang, $suara;
 
 	function cetakHewan(){
-		return $this->hewan;
+		return $this->nama;
 	}
-	function Hewan(){
-		return " Hewan Ini Adalah ".$this->hewan;
+	function Nama(){
+		return " Hewan Ini Bernama ".$this->nama;
 	}
 }
 
 class Kucing extends Animal {
 	public function JumlahKaki(){
-		return "Kucing Memiliki Jumlah Kaki : ".$this->jumlah_kaki;
+		return "Momo Memiliki Jumlah Kaki : ".$this->jumlah_kaki;
 	}
 	public function BisaTerbang(){
-		return "Kucing Tidak Bisa Terbang";
+		return "Bisa Terbang : ".$this->bisa_terbang;
 	}
 	public function Suara(){
-		return "Kucing Memiliki Suara : ".$this->suara;
+		return "Momo Memiliki Suara : ".$this->suara;
 	}
 }
 class Anjing extends Animal {
 	public function JumlahKaki(){
-		return "Anjing Memiliki Jumlah Kaki : ".$this->jumlah_kaki;
+		return "Doggo Memiliki Jumlah Kaki : ".$this->jumlah_kaki;
 	}
 	public function BisaTerbang(){
-		return "Anjing Tidak Bisa Terbang";
+		return "Bisa Terbang : ".$this->bisa_terbang;
 	}
 	public function Suara(){
-		return "Anjing Memiliki Suara : ".$this->suara;
+		return "Doggo Memiliki Suara : ".$this->suara;
 	}
 }
 class Elang extends Animal {
 	public function JumlahKaki(){
-		return "Elang Memiliki Jumlah Kaki : ".$this->jumlah_kaki;
+		return "Zya Memiliki Jumlah Kaki : ".$this->jumlah_kaki;
 	}
 	public function BisaTerbang(){
-		return "Elang Bisa Terbang";
+		return "Bisa Terbang : ".$this->bisa_terbang;
 	}
 	public function Suara(){
-		return "Elang Memiliki Suara : ".$this->suara;
+		return "Zya Memiliki Suara : ".$this->suara;
 	}
 }
 class Angsa extends Animal {
 	public function JumlahKaki(){
-		return "Angsa Memiliki Jumlah Kaki : ".$this->jumlah_kaki;
+		return "Masha Memiliki Jumlah Kaki : ".$this->jumlah_kaki;
 	}
 	public function BisaTerbang(){
-		return "Angsa Bisa Terbang";
+		return "Bisa Terbang : ".$this->bisa_terbang;
 	}
 	public function Suara(){
-		return "Angsa Memiliki Suara : ".$this->suara;
+		return "Masha Memiliki Suara : ".$this->suara;
 	}
 }

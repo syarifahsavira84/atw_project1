@@ -8,11 +8,12 @@ echo "<hr>";
 echo "<hr>";
 
 $kucing = new Kucing;
-$kucing->hewan = "Kucing";
+$kucing->nama = "Momo";
 $kucing->jumlah_kaki = "4";
+$kucing->bisa_terbang = "Tidak";
 $kucing->suara = "Meooong";
 
-echo $kucing->Hewan();
+echo $kucing->Nama();
 echo "<br>";
 echo $kucing->jumlahKaki();
 echo "<br>";
@@ -24,11 +25,12 @@ echo "<br>";
 echo "<hr>";
 
 $anjing = new Anjing;
-$anjing->hewan = "Anjing";
+$anjing->nama = "Doggo";
 $anjing->jumlah_kaki = "4";
+$anjing->bisa_terbang = "Tidak";
 $anjing->suara = "GuukGuuk";
 
-echo $anjing->Hewan();
+echo $anjing->Nama();
 echo "<br>";
 echo $anjing->jumlahKaki();
 echo "<br>";
@@ -40,11 +42,12 @@ echo "<br>";
 echo "<hr>";
 
 $elang = new Elang;
-$elang->hewan = "Elang";
+$elang->nama = "Zya";
 $elang->jumlah_kaki = "2";
+$elang->bisa_terbang = "Bisa";
 $elang->suara = "Miiipppp";
 
-echo $elang->Hewan();
+echo $elang->Nama();
 echo "<br>";
 echo $elang->jumlahKaki();
 echo "<br>";
@@ -56,11 +59,12 @@ echo "<br>";
 echo "<hr>";
 
 $angsa = new Angsa;
-$angsa->hewan = "Angsa";
+$angsa->nama = "Masha";
 $angsa->jumlah_kaki = "2";
+$angsa->bisa_terbang = "Bisa";
 $angsa->suara = "Kwaaak";
 
-echo $angsa->Hewan();
+echo $angsa->Nama();
 echo "<br>";
 echo $angsa->jumlahKaki();
 echo "<br>";
@@ -69,4 +73,4 @@ echo "<br>";
 echo $angsa->Suara();
 echo "<br>";
 
-echo "<hr>";
+echo "<hr>"; 
